@@ -1,0 +1,11 @@
+{
+  "name": "Ekini Like",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A dark scheme with reduced glare and improved readability",
+  "repository": "https://github.com/atom/ekini-like",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}

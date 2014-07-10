@@ -1,7 +1,7 @@
 {
   "name": "Ekini-Like",
   "theme": "syntax",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "A dark scheme with reduced glare and improved readability",
   "repository": "https://github.com/dsandstrom/atom-ekini-like-theme.git",
   "license": "MIT",

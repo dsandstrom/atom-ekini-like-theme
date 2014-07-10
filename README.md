@@ -4,8 +4,8 @@
 ###### Originally based on [Ekini Edit](http://blog.ekini.net/2009/11/19/ekini-edit-a-gedit-scheme-that-is-dark-and-suitable-for-low-light-conditions/), a gedit theme created by Wenbert Del Rosario.
 
 Wenbert describes it as:
-> A dark scheme with reduced glare and improved readability
-> ... it is based on the Zendburn and Thankful Eyes.
+> A dark scheme with reduced glare and improved readability...,
+> it is based on the Zendburn and Thankful Eyes.
 
 It is green heavy (which is my favorite color), with yellow, white, and pink highlights.
 I think it looks like a candy necklace.

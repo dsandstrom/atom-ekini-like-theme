@@ -3,7 +3,7 @@
   "theme": "syntax",
   "version": "0.0.0",
   "description": "A dark scheme with reduced glare and improved readability",
-  "repository": "https://github.com/atom/ekini-like",
+  "repository": "https://github.com/dsandstrom/atom-ekini-like-theme.git",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"

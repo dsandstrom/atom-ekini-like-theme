@@ -14,4 +14,4 @@ I created a [Sublime Text/TextMate theme](https://github.com/dsandstrom/EkiniSch
 and used `apm` to convert to an Atom theme.  There is also a [vim conversion](http://www.vim.org/scripts/script.php?script_id=3159).
 
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+![Ruby Sreenshot](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)

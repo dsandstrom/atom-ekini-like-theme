@@ -7,8 +7,10 @@ Wenbert describes it as:
 > A dark scheme with reduced glare and improved readability...,
 > it is based on the Zendburn and Thankful Eyes.
 
+I say it looks like a candy necklace.
+
 It is green heavy (which is my favorite color), with yellow, white, blue, and pink highlights.
-I think it looks like a candy necklace.  I think it looks best with a light UI Theme.
+I think it looks best with a light UI Theme.
 
 ![Ruby Sreenshot](https://github.com/dsandstrom/atom-ekini-like-theme/raw/master/screen-ruby.png)
 ![Html Sreenshot](https://github.com/dsandstrom/atom-ekini-like-theme/raw/master/screen-html.png)

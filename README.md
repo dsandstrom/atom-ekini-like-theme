@@ -18,6 +18,7 @@ I think it looks best with a light UI Theme.
 ### Note
 I created a [Sublime Text/TextMate theme](https://github.com/dsandstrom/EkiniScheme)
 and used `apm` to convert to an Atom theme.  There is also a [vim conversion](http://www.vim.org/scripts/script.php?script_id=3159).
+The font is *Inconsolata*.
 
 ### Todo
 It's a simple conversion, so I need to spend some time on it.

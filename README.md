@@ -10,7 +10,7 @@ Wenbert describes it as:
 I say it looks like a candy necklace.
 
 It is green heavy (which is my favorite color), with yellow, white, blue, and pink highlights.
-I think it looks best with a light UI Theme.
+I think it looks best with [Ekini Like UI Theme](https://atom.io/themes/ekini-like-ui).
 
 ![Ruby Sreenshot](https://github.com/dsandstrom/atom-ekini-like-theme/raw/master/screen-ruby.png)
 ![Html Sreenshot](https://github.com/dsandstrom/atom-ekini-like-theme/raw/master/screen-html.png)

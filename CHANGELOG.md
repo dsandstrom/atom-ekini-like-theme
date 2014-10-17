@@ -1,3 +1,8 @@
+## 0.7.0
+###### 2014-10-17
+* Remove gutter background color
+* Use dark green for current line
+
 ## 0.6.0
 ###### 2014-08-12
 * Mellow out invisibles/wrap guide

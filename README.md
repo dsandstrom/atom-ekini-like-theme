@@ -5,7 +5,7 @@
 
 Wenbert describes it as:
 > A dark scheme with reduced glare and improved readability...,
-> it is based on the Zendburn and Thankful Eyes.
+> it is based on the Zenburn and Thankful Eyes.
 
 I say it looks like a candy necklace.
 

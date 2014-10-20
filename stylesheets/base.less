@@ -11,12 +11,19 @@
 }
 
 .editor .gutter .line-number.cursor-line {
-  background-color: @syntax-gutter-background-color-selected;
   color: @syntax-gutter-text-color-selected;
 }
 
-.editor .gutter .line-number.cursor-line-no-selection {
-  color: @syntax-gutter-text-color-selected;
+.editor .has-selection .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+}
+
+.editor:not(.is-focused) .gutter .line-number.cursor-line-no-selection {
+  background: @syntax-cursor-line-background;
+}
+
+.editor.is-focused .gutter .line-number.selected {
+  background: @syntax-cursor-line-background;
 }
 
 .editor .wrap-guide {
@@ -49,8 +56,8 @@
   background-color: @syntax-selection-color;
 }
 
-.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
-  background-color: @syntax-gutter-background-color-selected;
+.editor.is-focused .line.cursor-line {
+  background-color: @syntax-cursor-line-background;
 }
 
 .mcol_CCCCCCFF {

@@ -1,3 +1,7 @@
+## 0.8.0
+###### 2014-10-21
+* Adjust gutter colors for current line and selected text
+
 ## 0.7.0
 ###### 2014-10-17
 * Remove gutter background color

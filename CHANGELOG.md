@@ -1,3 +1,7 @@
+## 0.8.1
+###### 2014-11-9
+* Add links in readme
+
 ## 0.8.0
 ###### 2014-10-21
 * Adjust gutter colors for current line and selected text

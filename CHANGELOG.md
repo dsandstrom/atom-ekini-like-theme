@@ -1,3 +1,7 @@
+## 0.9.0
+###### 2014-11-28
+* Update styles for shadow dom
+
 ## 0.8.1
 ###### 2014-11-9
 * Add links in readme

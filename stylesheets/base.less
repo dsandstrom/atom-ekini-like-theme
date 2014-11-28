@@ -1,31 +1,28 @@
 @import "syntax-variables";
 
+.editor.is-focused,
+:host .is-focused {
+  .gutter .line-number.selected {
+    background: @syntax-cursor-line-background;
+  }
+
+  .cursor {
+    border-color: @syntax-cursor-color;
+  }
+
+  .selection .region {
+    background-color: @syntax-selection-color;
+  }
+
+  .line.cursor-line {
+    background-color: @syntax-cursor-line-background;
+  }
+}
+
 .editor,
 :host {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
-
-  &.is-focused {
-    .gutter .line-number.selected {
-      background: @syntax-cursor-line-background;
-    }
-
-    .cursor {
-      border-color: @syntax-cursor-color;
-    }
-
-    .selection .region {
-      background-color: @syntax-selection-color;
-    }
-
-    .line.cursor-line {
-      background-color: @syntax-cursor-line-background;
-    }
-  }
-
-  // &:not(.is-focused) .gutter .line-number.cursor-line-no-selection {
-  //   background: @syntax-cursor-line-background;
-  // }
 
   .gutter {
     background-color: @syntax-gutter-background-color;

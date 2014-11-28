@@ -1,64 +1,67 @@
 @import "syntax-variables";
 
-.editor {
+.editor,
+:host {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
-}
 
-.editor .gutter {
-  background-color: @syntax-gutter-background-color;
-  color: @syntax-gutter-text-color;
-}
+  &.is-focused {
+    .gutter .line-number.selected {
+      background: @syntax-cursor-line-background;
+    }
 
-.editor .gutter .line-number.cursor-line {
-  color: @syntax-gutter-text-color-selected;
-}
+    .cursor {
+      border-color: @syntax-cursor-color;
+    }
 
-.editor .has-selection .gutter .line-number.cursor-line {
-  background-color: @syntax-gutter-background-color-selected;
+    .selection .region {
+      background-color: @syntax-selection-color;
+    }
+
+    .line.cursor-line {
+      background-color: @syntax-cursor-line-background;
+    }
+  }
+
+  .gutter {
+    background-color: @syntax-gutter-background-color;
+    color: @syntax-gutter-text-color;
+
+    .line-number.cursor-line {
+      color: @syntax-gutter-text-color-selected;
+    }
+  }
+
+  .has-selection .gutter .line-number.cursor-line {
+    background-color: @syntax-gutter-background-color-selected;
+  }
+
+  .wrap-guide {
+    background-color: transparent;
+    border-left: 1px dashed @syntax-wrap-guide-color;
+  }
+
+  .indent-guide {
+    color: @syntax-indent-guide-color;
+  }
+
+  .invisible-character {
+    color: @syntax-invisible-character-color;
+  }
+
+  .search-results .marker .region {
+    background-color: transparent;
+    border: 1px solid @syntax-result-marker-color;
+  }
+
+  .search-results .marker.current-result .region {
+    border: 1px solid @syntax-result-marker-color-selected;
+  }
 }
 
 // .editor:not(.is-focused) .gutter .line-number.cursor-line-no-selection {
 //   background: @syntax-cursor-line-background;
 // }
-
-.editor.is-focused .gutter .line-number.selected {
-  background: @syntax-cursor-line-background;
-}
-
-.editor .wrap-guide {
-  background-color: transparent;
-  border-left: 1px dashed @syntax-wrap-guide-color;
-}
-
-.editor .indent-guide {
-  color: @syntax-indent-guide-color;
-}
-
-.editor .invisible-character {
-  color: @syntax-invisible-character-color;
-}
-
-.editor .search-results .marker .region {
-  background-color: transparent;
-  border: 1px solid @syntax-result-marker-color;
-}
-
-.editor .search-results .marker.current-result .region {
-  border: 1px solid @syntax-result-marker-color-selected;
-}
-
-.editor.is-focused .cursor {
-  border-color: @syntax-cursor-color;
-}
-
-.editor.is-focused .selection .region {
-  background-color: @syntax-selection-color;
-}
-
-.editor.is-focused .line.cursor-line {
-  background-color: @syntax-cursor-line-background;
-}
 
 .mcol_CCCCCCFF {
   color: rgba(0, 0, 0, 1);

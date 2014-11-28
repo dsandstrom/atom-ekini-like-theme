@@ -1,3 +1,7 @@
+## 0.9.1
+###### 2014-11-28
+* Fix normal text color
+
 ## 0.9.0
 ###### 2014-11-28
 * Update styles for shadow dom
